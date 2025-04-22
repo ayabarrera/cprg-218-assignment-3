@@ -8,13 +8,15 @@
   <link rel="icon" href="../images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../homepagestyles/activities.css" />
+  <link rel="stylesheet" href="../reusable-component-style/faq.css" />
 </head>
 
 <body>
   <header>
     <div class="header-content">
       <!-- Logo -->
-      <img src="../images/header_logo.svg" alt="Shangri-La Hotel logo featuring a white flower beside the brand name" width="50" height="50" />
+      <img src="../images/header_logo.svg" alt="Shangri-La Hotel logo featuring a white flower beside the brand name"
+        width="50" height="50" />
 
       <!-- Navbar -->
       <nav>
@@ -237,16 +239,36 @@
     </section>
 
     <!--Booking and Information part-->
-    <section class="booking-info">
-      <div>
-        <h2>Booking & Information</h2>
+    <section class="faq-container">
+      <h2 class="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-items">
+        <article class="faq-item">
+          <h2 class="faq-title">How can I book?</h2>
+          <div class="faq-content">
+            <p>Our concierge team is available to assist you with booking activities and excursions.</p>
+            <p>Advance bookings are recommended, especially during peak season.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <h2 class="faq-title">Where can I see the availability?</h2>
+          <div class="faq-content">
+            <p>Please inquire about availability and pricing for specific activities.</p>
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <h2 class="faq-title">Can I arrange transportation for excursions?</h2>
+          <div class="faq-content">
+            <p>Yes, transportation to and from excursion locations can be arranged through our concierge service.</p>
+          </div>
+        </article>
+        <h4 class="faq-end">Create lasting memories at Shangri La Beach Resort with our diverse range of activities and
+          excursions.</h4>
       </div>
-      <p>Our concierge team is available to assist you with booking activities and excursions.</p>
-      <p>Please inquire about availability and pricing for specific activities.</p>
-      <p>Transportation to and from excursion locations can be arranged.</p>
-      <p>Advance bookings are recommended, especially during peak season.</p>
-      <p>Create lasting memories at Shangri-La Beach Resort with our diverse range of activities and excursions.</p>
     </section>
+
+
 
 
   </main>
@@ -263,6 +285,7 @@
     </div>
   </footer>
   <script src="../js/weatherapi.js"></script>
+  <script src="../js/faq.js"></script>
 </body>
 
 </html>

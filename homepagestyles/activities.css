@@ -143,45 +143,6 @@
     left: 0;
   }
   
-  .booking-info {
-    padding: 40px 20px;
-    margin: 30px auto 0;
-    max-width: 960px;
-    background-color: #d9d9d9;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: whitesmoke;
-  }
-  
-  .booking-info h2 {
-    font-size: 2rem;
-    margin-top: 0;
-    text-align: center;
-  }
-  
-  .booking-info hr {
-    width: 80px;
-    margin: 15px auto;
-    border-top: 2px solid #8EACAC;
-  }
-  
-  .booking-info p {
-    font-size: 0.95rem;
-    line-height: 1.7;
-    margin-bottom: 15px;
-  }
-  
-  .booking-info ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 20px;
-  }
-  
-  .booking-info ul li {
-    margin-bottom: 10px;
-    font-size: 0.9rem;
-  }
   
   @media (max-width: 768px) {
     .activities-grid {
