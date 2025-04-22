@@ -80,12 +80,15 @@ https://unsplash.com/photos/a-bride-and-groom-walking-down-the-aisle-n5xGMMSqLVQ
 - "Overwater Villa at the W Hotel luxury resort in the Maldives. by Upgraded Points under Unsplash License. 
 https://unsplash.com/photos/blue-and-white-inflatable-ring-on-swimming-pool-c8UktkMDrbc"
 
+19. Photo by Towfiqu barbhuiya on Unsplash
+- "women applying homemade natural avocado cosmetic cream on skin. by Towfiqu barbhuiya under Unsplash License.
+https://unsplash.com/photos/person-holding-brown-wooden-chopsticks-EDBy1syonFg"
 
-19. Beach Huts by Shangri-La
+20. Beach Huts by Shangri-La
 
-20. Favicon & Logo by Shangri-La
+21. Favicon & Logo by Shangri-La
 
-21. All other images cited are owned by Me (Aya Barrera)
+22. All other images cited are owned by Me (Aya Barrera)
   - breadpudding.jpg
   - mangodrink.jpg
   - steak.jpg
