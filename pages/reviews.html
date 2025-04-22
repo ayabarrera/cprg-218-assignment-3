@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../homepagestyles/review.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Logo -->
+            <img src="../images/header_logo.svg" alt="Shangri-La Hotel logo featuring a white flower beside the brand name" width="50"
+                height="50" />
+
+            <!-- Navbar -->
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="./rooms.html">Rooms</a></li>
+                    <li><a href="./dining.html">Dining</a></li>
+                    <li><a href="./activities.html">Activities</a></li>
+                    <li><a href="./spa.html">Spa</a></li>
+                    <li><a href="#" class="active">Testimonials</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- Weather Info -->
+        <div class="header-text">
+            <h1 id="city"></h1>
+            <p id="temp"></p>
+            <img id="condition" src="" alt="">
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="reviews">
+            <h1>What Our Guests Are Saying</h1>
+            <p>Read about the wonderful experiences our guests have had at Shangri La Beach Resort.</p>
+
+            <div class="review-container">
+                <article class="review">
+                    <div class="rating">
+                        <span class="fa fa-star checked" aria-label="1 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="2 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="3 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="4 out of 5 stars"></span>
+                        <span class="fa fa-star" aria-label="5 out of 5 stars"></span>
+                    </div>
+                    <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, the food was
+                        delicious, and the views were breathtaking. We especially loved relaxing by the infinity pool.
+                        We can't wait to return!"</p>
+                    <h2>- Sarah M.</h2>
+                </article>
+
+                <article class="review">
+                    <div class="rating">
+                        <span class="fa fa-star checked" aria-label="1 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="2 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="3 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="4 out of 5 stars"></span>
+                        <span class="fa fa-star" aria-label="5 out of 5 stars"></span>
+                    </div>
+                    <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto
+                        the sand was incredible. The resort offered so many activities, we never had a dull moment.
+                        Highly recommend the snorkeling!"</p>
+                    <h2>- John B.</h2>
+                </article>
+
+                <article class="review">
+                    <div class="rating">
+                        <span class="fa fa-star checked" aria-label="1 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="2 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="3 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="4 out of 5 stars"></span>
+                        <span class="fa fa-star" aria-label="5 out of 5 stars"></span>
+                    </div>
+                    <p>"We traveled with our two young children, and the Kids' Club was a lifesaver! The staff were
+                        fantastic, and our kids had a blast. This allowed us some much-needed relaxation time. The
+                        resort is very family-friendly."</p>
+                    <h2>- Emily K.</h2>
+                </article>
+
+                <article class="review">
+                    <div class="rating">
+                        <span class="fa fa-star checked" aria-label="1 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="2 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="3 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="4 out of 5 stars"></span>
+                        <span class="fa fa-star" aria-label="5 out of 5 stars"></span>
+                    </div>
+                    <p>"The spa experience was divine. The therapists were skilled, and the atmosphere was so peaceful.
+                        It was the perfect way to unwind and de-stress. We left feeling completely rejuvenated."</p>
+                    <h2>- David L.</h2>
+                </article>
+
+                <article class="review">
+                    <div class="rating">
+                        <span class="fa fa-star checked" aria-label="1 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="2 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="3 out of 5 stars"></span>
+                        <span class="fa fa-star checked" aria-label="4 out of 5 stars"></span>
+                        <span class="fa fa-star" aria-label="5 out of 5 stars"></span>
+                    </div>
+                    <p>"From the moment we arrived, the staff made us feel welcome and well taken care of. The attention
+                        to detail was outstanding. Shangri La truly lives up to its name - a little slice of paradise!"
+                    </p>
+                    <h2>- Jessica P.</h2>
+                </article>
+            </div>
+          
+            <section class="review-form-section" aria-labelledby="review-form-title">
+                <div>
+                    <h2 id="review-form-title">We are always striving to provide exceptional experiences for our guests.</h2>
+                    <p>If you have enjoyed your stay at Shangri La Beach Resort, we would love to hear from you!</p>
+                </div>
+            
+                <form class="review-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name <span aria-hidden="true">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="review">Your Review <span aria-hidden="true">*</span></label>
+                        <textarea id="review" name="review" rows="5" placeholder="Share your experience..." required></textarea>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="rating">Rating <span aria-hidden="true">*</span></label>
+                        <select id="rating" name="rating" required>
+                            <option value="">Choose a rating</option>
+                            <option value="5">★★★★★ - Excellent</option>
+                            <option value="4">★★★★☆ - Very Good</option>
+                            <option value="3">★★★☆☆ - Good</option>
+                            <option value="2">★★☆☆☆ - Fair</option>
+                            <option value="1">★☆☆☆☆ - Poor</option>
+                        </select>
+                    </div>
+            
+                    <button type="submit">Submit Review</button>
+                </form>
+            </section>
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav aria-label="Footer navigation">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2025 Shangri-La Beach Resort. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../js/weatherapi.js"></script>
+</body>
+
+</html>
