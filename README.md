@@ -3,7 +3,7 @@
 Re-designing the website of Shangri-La Beach Resort.
 
 🚀 Live Demo
-- [Shangri-La Website 2.0]()
+- [Shangri-La Website 2.0](https://ayabarrera.github.io/cprg-218-assignment-3/)
 
 ## ATTRIBUTIONS ADD ALL OTHER WORKS IS MINE
 [Unsplash License Documentation](https://unsplash.com/license)
@@ -90,7 +90,3 @@ https://unsplash.com/photos/blue-and-white-inflatable-ring-on-swimming-pool-c8Uk
   - mangodrink.jpg
   - steak.jpg
   - steakadmash.jpg
-
-
-
-# cprg-218-assignment-3
